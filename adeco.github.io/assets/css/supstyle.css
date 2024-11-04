@@ -1,0 +1,116 @@
+/* Extra Styles for Support Page */
+body {
+  background-color: #3d4357;
+}
+
+.support_module {
+    width: 300px;
+    height: 230px;
+    max-height: 200px;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    padding: 40px 30px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+}
+
+.support_content {
+    width: 100%;
+    height: auto; /* Let the section expand as needed */
+    max-width: 750px;
+    border-radius: 15px;
+    margin: 0px 30px;
+    padding: 40px;
+    background-color: #110438;
+    float: left;
+}
+
+/* FAQ Section */
+.faq_section {
+    width: 100%;
+    height: auto; /* Let it expand dynamically */
+    max-width: 400px;
+    border-radius: 15px;
+    margin: 0px 0px 0px 50px;
+    padding: 30px;
+    background-color: #110438;
+    float: left;
+}
+
+.main {
+    padding-top: var(--header-height);
+}
+
+.main_area {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Allow dynamic height */
+    padding: 80px;
+}
+
+.picture_container {
+    width: 80%;
+    height: 500px;
+    max-height: 100%;
+    border-radius: 15px;
+    background-image: url('/assets/img/supportbanner.webp');
+    background-size: cover;
+    margin: 100px auto 50px;
+}
+
+.page_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.suphead {
+    font-size: 50px;
+}
+
+/* Contact Form Updates */
+.support_form {
+    width: 800px;
+    height: auto; /* Allow form to grow */
+    border-radius: 15px;
+    background-color: #110438;
+    padding: 40px 30px 50px 30px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure input fields are styled uniformly */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 15px; /* Increase padding for better usability */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px; /* Increase margin between inputs */
+    background-color: #fff;
+    color: #000;
+    font-size: 16px; /* Ensure readability */
+}
+
+form label {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+button {
+    padding: 15px; /* Increase button size for better usability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3d4357;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e3447;
+}
